@@ -1,2 +1,1 @@
-# holbertonschool-higher_level_programming
-# sorting_algorithms
+Sorting algorithms
