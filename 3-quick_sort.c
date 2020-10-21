@@ -3,8 +3,8 @@
 /**
 * partition - main for data to sort
 * @array: array
-* @lo: lowest limit
-* @hi: upper limit
+* @low: lowest limit
+* @high: upper limit
 * @size: length of the array
 * Return: int
 */
