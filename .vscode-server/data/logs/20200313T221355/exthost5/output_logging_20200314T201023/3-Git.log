@@ -1,0 +1,42 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant/printf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :README.md
+> git ls-files --stage -- /home/vagrant/printf/README.md
+> git rev-list --left-right master...refs/remotes/origin/master
+> git cat-file -s 832bb467fec1091f8e193dc6feb5c45c47517616
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/vagrant/printf/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/vagrant/printf/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/home/vagrant/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/git/dist/main.js:1:596727)
+	at E.updateTransientWatchers (/home/vagrant/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/git/dist/main.js:1:82685)
+	at l.fire (/home/vagrant/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:865)
+	at R.updateModelState (/home/vagrant/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/git/dist/main.js:1:101543)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant/holbertonschool-low_level_programming
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git show :0x10-variadic_functions/2-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x10-variadic_functions/2-main.c
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

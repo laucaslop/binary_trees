@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/vagrant/holbertonschool-low_level_programming/0x00-hello_world'
+let g:netrw_dirhist_2='/home/vagrant/holbertonschool-low_level_programming/0x09-static_libraries'
+let g:netrw_dirhist_3='/home/vagrant/holbertonschool-low_level_programming/0x0F-function_pointers'
+let g:netrw_dirhist_4='/home/vagrant/holbertonschool-low_level_programming/printf'

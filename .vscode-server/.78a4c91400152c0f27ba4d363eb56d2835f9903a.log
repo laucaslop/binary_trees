@@ -1,0 +1,90 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 10.0.2.15
+Extension host agent listening on 38219
+
+
+[22:13:55] Extension host agent started.
+[22:13:55] [127.0.0.1][52af940d][ManagementConnection] New connection established.
+[22:13:55] [127.0.0.1][0fd9590f][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[22:13:56] [127.0.0.1][0fd9590f][ExtensionHostConnection] <3573> Launched Extension Host Process.
+[22:14:04] [127.0.0.1][52af940d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:14:05] [127.0.0.1][0fd9590f][ExtensionHostConnection] <3573> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[22:14:05] Last EH closed, waiting before shutting down
+[22:14:06] [127.0.0.1][1e71f33e][ManagementConnection] New connection established.
+[22:14:06] [127.0.0.1][d42f4b64][ExtensionHostConnection] New connection established.
+[22:14:06] [127.0.0.1][d42f4b64][ExtensionHostConnection] <3613> Launched Extension Host Process.
+[22:14:28] Installing extension: ms-vscode.cpptools
+[22:14:29] Downloaded extension: ms-vscode.cpptools /tmp/ff9fcba1-9d7c-4b90-a196-fcea9866ed32
+[22:14:30] Extracted extension to /home/vagrant/.vscode-server/extensions/.ms-vscode.cpptools-0.26.3: ms-vscode.cpptools
+[22:14:30] Renamed to /home/vagrant/.vscode-server/extensions/ms-vscode.cpptools-0.26.3
+[22:14:30] Installation completed. ms-vscode.cpptools
+[22:14:30] Extensions installed successfully: ms-vscode.cpptools
+[22:14:42] [127.0.0.1][1e71f33e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:14:43] [127.0.0.1][d42f4b64][ExtensionHostConnection] <3613> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[22:14:43] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[22:14:43] Last EH closed, waiting before shutting down
+[22:14:44] [127.0.0.1][c97ec90a][ExtensionHostConnection] New connection established.
+[22:14:44] [127.0.0.1][c97ec90a][ExtensionHostConnection] <3757> Launched Extension Host Process.
+[22:14:44] [127.0.0.1][b6dc48d9][ManagementConnection] New connection established.
+New EH opened, aborting shutdown
+[22:19:43] New EH opened, aborting shutdown
+[22:44:51] [127.0.0.1][b6dc48d9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:44:52] [127.0.0.1][c97ec90a][ExtensionHostConnection] <3757> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[22:44:52] Last EH closed, waiting before shutting down
+[22:44:52] [127.0.0.1][80458965][ManagementConnection] New connection established.
+[22:44:52] [127.0.0.1][249e4556][ExtensionHostConnection] New connection established.
+[22:44:52] [127.0.0.1][249e4556][ExtensionHostConnection] <5069> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[22:49:52] New EH opened, aborting shutdown
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/vagrant/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/vagrant/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[20:03:30] [127.0.0.1][80458965][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[20:10:20] [127.0.0.1][80458965][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[20:10:20] [127.0.0.1][cc9e3b59][ManagementConnection] New connection established.
+[20:10:20] [127.0.0.1][b886d21d][ExtensionHostConnection] New connection established.
+[20:10:20] [127.0.0.1][b886d21d][ExtensionHostConnection] <5709> Launched Extension Host Process.
+[20:15:20] [127.0.0.1][80458965][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[20:15:21] [127.0.0.1][249e4556][ExtensionHostConnection] <5069> Extension Host Process exited with code: 0, signal: null.
+[20:22:26] [127.0.0.1][cc9e3b59][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:22:27] [127.0.0.1][4675613e][ManagementConnection] New connection established.
+[20:22:27] [127.0.0.1][fe1638d8][ExtensionHostConnection] New connection established.
+[20:22:27] [127.0.0.1][fe1638d8][ExtensionHostConnection] <5838> Launched Extension Host Process.
+[20:22:41] [127.0.0.1][b886d21d][ExtensionHostConnection] <5709> Extension Host Process exited with code: 0, signal: null.
+[20:32:10] [127.0.0.1][4675613e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:32:11] [127.0.0.1][fe1638d8][ExtensionHostConnection] <5838> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[20:32:11] Last EH closed, waiting before shutting down
+[20:32:12] [127.0.0.1][2542b7ef][ManagementConnection] New connection established.
+[20:32:12] [127.0.0.1][d1a625fd][ExtensionHostConnection] New connection established.
+[20:32:12] [127.0.0.1][d1a625fd][ExtensionHostConnection] <6203> Launched Extension Host Process.
+[20:33:41] [127.0.0.1][2542b7ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:33:42] [127.0.0.1][d1a625fd][ExtensionHostConnection] <6203> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[20:33:42] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[20:33:42] Last EH closed, waiting before shutting down
