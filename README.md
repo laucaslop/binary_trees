@@ -1,2 +1,1 @@
-Sorting algorithms
-# binary_trees
+binary trees
